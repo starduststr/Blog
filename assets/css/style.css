@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  color: #242222;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #242222;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  color: #242222;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  border-top: 1px solid #ccc;
+}
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.article img {
+  width: 290px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.article h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.article a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.article a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.seacrh input {
+  /* margin-left: 60%; */
+  height: 30px;
+  border-color: #2b7de9;
+  border-radius: 2px;
+}
+
+.seacrh button {
+  border-color: #2b7de9;
+  border-radius: 2px;
+  background-color: #2b7de9;
+  color: #fff;
+  height: 31px;
+  width: 40px;
+}
+
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.author {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.author img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.author span {
+  margin-left: 70px;
+}
+
+.author p {
+  width: 50%;
+  color: #9f9e9e;
+  margin-top: 30px;
+  margin-left: -150px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.breadcum {
+  margin-top: 30px;
+}
+
+.content {
+  font-size: large;
+  color: #2b2b2b;
+}
+
+.content small {
+  font-size: 11;
+  color: #9f9e9e;
+}
+
+.content img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.content p {
+  font-size: large;
+  color: #2b2b2b;
+}
+
+.cup {
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.subscribe input {
+  width: 500px;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.subscribe textarea {
+  border-radius: 5px;
+}
+
+.subscribe button {
+  height: 35px;
+  margin-top: 30px;
+  background-color: #2b7de9;
+  color: #fff;
+  border-color: #2b7de9;
+  border-radius: 3px;
+}
+
+.subscribe button:hover {
+  background-color: #fff;
+  color: #2b7de9;
+}
+
+.title {
+  text-align: center;
+  align-items: center;
+}
+
+.title h1 {
+  color: #4a476a;
+  font-size: 80px;
+}
+
+.title p {
+  width: 50%;
+}
+
+.title button {
+  background-color: #2b7de9;
+  border-radius: 5px;
+  border-color: #2b7de9;
+  /* width: 90px; */
+  color: #fff;
+  height: 40px;
+  font-size: 20px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.gallery img {
+  width: 290px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.contact {
+  margin-right: 30%;
+  margin-left: 30%;
+  width: 500px;
+  background-color: rgb(0, 174, 255);
+  border-radius: 4px;
+  border-color: #0630ffc2;
+  box-shadow: 10px 10px #0630ffc2;
+}
+
+.contact h2 {
+  color: navy;
+  text-align: center;
+}
+
+.form-contact {
+  margin-left: 20px;
+}
+
+.form-contact input {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 29px;
+  width: 300px;
+  border-radius: 2px;
+}
+
+.form-contact select {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  height: 29px;
+  width: 300px;
+  border-radius: 2px;
+}
+
+.form-contact textarea {
+  margin-left: 70px;
+  margin-bottom: 40px;
+  /* height: 29px; */
+  width: 300px;
+  border-radius: 2px;
+}
+
+.form-contact button {
+  /* margin-top: 20px; */
+  background-color: #2b7de9;
+  color: #fff;
+  border-radius: 2px;
+  margin-bottom: 20px;
+
+  margin-left: 70px;
+  width: 100px;
+  height: 30px;
+
+  border-color: #2b7de9;
+}
